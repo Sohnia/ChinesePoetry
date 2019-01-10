@@ -1,0 +1,98 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:1575875928309608221",
+      "lastPropertyId": "5:583561221084764187",
+      "name": "AuthorModel",
+      "properties": [
+        {
+          "id": "1:2848026654485339988",
+          "name": "authorId"
+        },
+        {
+          "id": "2:4818100681896974360",
+          "name": "NAME"
+        },
+        {
+          "id": "3:3984129943421787128",
+          "name": "INTRODUCE"
+        },
+        {
+          "id": "4:1601818820203047486",
+          "name": "LIKE"
+        },
+        {
+          "id": "5:583561221084764187",
+          "name": "HEADIMAGE"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:6895802150925280617",
+      "lastPropertyId": "6:6003424416137094953",
+      "name": "PoetryModel",
+      "properties": [
+        {
+          "id": "1:6983194096592154501",
+          "name": "poetryId"
+        },
+        {
+          "id": "2:380054501184512074",
+          "name": "TITLE"
+        },
+        {
+          "id": "3:5610211506953511813",
+          "name": "CONTENT"
+        },
+        {
+          "id": "4:6784504610733986343",
+          "name": "AUTHOR"
+        },
+        {
+          "id": "5:1456405441537286874",
+          "name": "LIKE"
+        },
+        {
+          "id": "6:6003424416137094953",
+          "name": "TYPE"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:2260067869229605491",
+      "lastPropertyId": "3:7977074209525660752",
+      "name": "SentencesModel",
+      "properties": [
+        {
+          "id": "1:3717983298133443748",
+          "name": "id"
+        },
+        {
+          "id": "2:140242517424744245",
+          "name": "CONTENT"
+        },
+        {
+          "id": "3:7977074209525660752",
+          "name": "LABEL"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:2260067869229605491",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

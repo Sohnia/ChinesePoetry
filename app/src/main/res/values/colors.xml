@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="grayAA">#AAAAAA</color>
+    <color name="gray99">#999999</color>
+    <color name="gray40">#404040</color>
+    <!--主题颜色-->
+    <!--radio颜色-->
+    <color name="radio_text_checked">#000000</color>
+    <color name="radio_text_uncheck">#aaaaaa</color>
+    <color name="bg_theme">#F5FFFFFF</color>
+    <color name="text_color_theme">@android:color/black</color>
+    <color name="toolbar_text_color">#000000</color>
+    <color name="status_bar_color">#000000</color>
+    <!--不改变的颜色，例如背景，字体等-->
+    <color name="bg">#F5FFFFFF</color>
+    <color name="background_material">#fafafa</color>
+    <color name="split_line">#dddddd</color>
+    <color name="text_black">@android:color/black</color>
+
+    <color name="fun_pressed_color">#eeeeee</color>
+    <color name="search_color">#ff1744</color>
+    <color name="pink">#FF69B4</color>
+    <color name="gray">#707070</color>
+    <color name="theme_color">#345784</color>
+    <color name="white_8p">#14FFFFFF</color>
+    <color name="white_16p">#29FFFFFF</color>
+    <color name="white_24p">#3DFFFFFF</color>
+    <color name="white_50p">#80FFFFFF</color>
+    <color name="white_96p">#F5FFFFFF</color>
+    <color name="colorCursor">#cccccc</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="text_theme_bg">#ffffff</color>
+
+
+</resources>

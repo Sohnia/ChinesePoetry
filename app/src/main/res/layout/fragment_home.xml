@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_height="?attr/actionBarSize">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/head_image"
+                        android:layout_width="@dimen/dp_24"
+                        android:layout_height="@dimen/dp_24"
+                        android:layout_marginLeft="@dimen/icon_marginleft"
+                        android:layout_marginTop="@dimen/icon_margin_bottom_top"
+                        android:layout_marginBottom="@dimen/icon_margin_bottom_top"
+                        android:src="@mipmap/default_head_image" />
+
+                    <ImageButton
+                        android:id="@+id/search_button"
+                        android:layout_width="@dimen/dp_24"
+                        android:layout_height="@dimen/dp_24"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="@dimen/icon_margin_bottom_top"
+                        android:layout_marginRight="@dimen/icon_marginleft"
+                        android:layout_marginBottom="@dimen/icon_margin_bottom_top"
+                        android:background="@color/bg_theme"
+                        android:clickable="true"
+                        android:src="@drawable/ic_search_black_24dp" />
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/tablayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/tab_margin"
+                        android:layout_marginRight="@dimen/tab_margin"
+                        android:layout_toLeftOf="@+id/search_button"
+                        android:layout_toRightOf="@+id/head_image"
+                        app:tabIndicatorColor="@color/radio_text_checked"
+                        app:tabSelectedTextColor="@color/radio_text_checked"
+                        app:tabTextColor="@color/radio_text_uncheck"
+                        app:tabMode="fixed"/>
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragment_home_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar_layout"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_marginBottom="@dimen/radio_group_height">
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>
